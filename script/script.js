@@ -185,7 +185,7 @@ function enviarWhatsApp(event) {
     event.preventDefault();
 
     const textoUsuario = document.getElementsByName('whats')[0].value;
-    const mensagem = `Fala B1, tudo na paz ${textoUsuario}`
+    const mensagem = `Fala BF, tudo na paz ${textoUsuario}`
     const url = `https://wa.me/${telefone}?text=${encodeURIComponent(mensagem)}`
     window.open(url,'_blank')
 

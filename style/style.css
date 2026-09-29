@@ -7,11 +7,11 @@
 
 
 :root {
-    --b1Red: #d81103;
-    --b1Yellow: #E3D300;
-    --b1Black: #0B0B0A;
-    --b1White: #F2F0EB;
-    --b1Gray: #A7A49E;
+    --BFRed: #d81103;
+    --BFYellow: #E3D300;
+    --BFBlack: #0B0B0A;
+    --BFWhite: #F2F0EB;
+    --BFGray: #A7A49E;
     --fontPrim: "Syne", sans-serif;
     --fontSecun: "Quicksand", sans-serif;
     --fontTerc: "Cinzel Decorative", serif;
@@ -24,7 +24,7 @@
 body {
     font-family: var(--fontSecun);
     font-weight: 600;
-    background: var(--b1Black);
+    background: var(--BFBlack);
 }
 
 .loader {
@@ -57,7 +57,7 @@ body {
 .box-inf {
     width: 100%;
     height: 100%;
-    background: var(--b1Yellow);
+    background: var(--BFYellow);
 }
 
 .hero {
@@ -76,7 +76,7 @@ body {
     font-size: clamp(5.5rem, 9vw, 10vw);
     padding-bottom: .5rem;
     font-weight: 800;
-    color: var(--b1Yellow);
+    color: var(--BFYellow);
     z-index: -5;
 }
 
@@ -98,7 +98,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 1.5rem 0 0 0;
-    color: var(--b1White);
+    color: var(--BFWhite);
     flex-direction: column;
     overflow: hidden;
 
@@ -110,7 +110,7 @@ body {
 }
 
 .text-hero a {
-    color: var(--b1White);
+    color: var(--BFWhite);
     display: inline-block;
     text-decoration: none;
     padding: .5rem 0 0 0;
@@ -126,7 +126,7 @@ body {
 }
 
 .text-hero a:hover {
-    color: var(--b1Yellow);
+    color: var(--BFYellow);
 
     span {
         scale: 1.2;
@@ -140,7 +140,7 @@ body {
     font-size: clamp(1.5rem, 3rem, 4rem);
     padding-bottom: .5rem;
     font-weight: 800;
-    color: var(--b1Yellow);
+    color: var(--BFYellow);
     font-style: italic;
     padding: 1rem 0;
     z-index: -10;
@@ -203,7 +203,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100%;
-    color: var(--b1White);
+    color: var(--BFWhite);
     font-family: var(--fontTerc);
     gap: 8vh;
     text-align: center;
@@ -230,13 +230,13 @@ body {
 
 .scroll-horizontal {
     margin-top: 10rem;
-    color: var(--b1Black);
+    color: var(--BFBlack);
 }
 
 .conteudo-scroll {
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(180deg, var(--b1Black), var(--b1White));
+    background: linear-gradient(180deg, var(--BFBlack), var(--BFWhite));
 }
 
 .conteudo {
@@ -260,15 +260,15 @@ body {
 
 .name-horizontal h1 {
     font-family: var(--fontPrim);
-    font-size: clamp(10vh, 40vw, 45vw);
+    font-size: clamp(10vh, 33vw, 38vw);
     font-weight: 800;
     white-space: nowrap;
-    color: var(--b1Red);
+    color: var(--BFRed);
 }
 
 .theArtist {
     width: 100%;
-    background-color: var(--b1White);
+    background-color: var(--BFWhite);
 }
 
 .cleiton {
@@ -296,7 +296,7 @@ body {
 .titulo-artista {
     h1 {
         font-family: var(--fontPrim);
-        color: var(--b1Red);
+        color: var(--BFRed);
         font-weight: 800;
         font-size: clamp(5rem, 18vh, 20vh);
     }
@@ -332,7 +332,7 @@ body {
         font-size: clamp(5.5rem, 9vw, 10vw);
         padding-bottom: 5rem;
         font-weight: 800;
-        color: var(--b1Red);
+        color: var(--BFRed);
 
     }
 }
@@ -364,7 +364,7 @@ body {
     font-family: var(--fontTerc);
     font-weight: 400;
     font-size: 2rem;
-    border-bottom: 1px solid var(--b1Gray);
+    border-bottom: 1px solid var(--BFGray);
 }
 
 .balao {
@@ -381,7 +381,7 @@ body {
     overflow: hidden;
 }
 
-.msg-b1 {
+.msg-bf {
     align-self: flex-start;
     background-color: #242727;
     overflow: hidden;
@@ -399,7 +399,7 @@ body {
 }
 
 #rodape {
-    background-color: var(--b1White);
+    background-color: var(--BFWhite);
     width: 100%;
     height: max-content;
 }
@@ -416,7 +416,7 @@ body {
     }
 
     span {
-        color: var(--b1Red);
+        color: var(--BFRed);
         font-size: clamp(4rem, 8vw, 9vw);
         font-family: var(--fontPrim);
         font-weight: 700;
@@ -438,8 +438,8 @@ body {
         gap: 10px;
         width: 15rem;
         height: 3rem;
-        color: var(--b1White);
-        background-color: var(--b1Black);
+        color: var(--BFWhite);
+        background-color: var(--BFBlack);
         border: none;
         border-radius: 8px;
         font-size: .8rem;
@@ -462,7 +462,7 @@ body {
     flex-direction: column;
     padding: 3rem 0;
     width: 100%;
-    border-bottom: 1px solid var(--b1Gray);
+    border-bottom: 1px solid var(--BFGray);
 }
 
 
@@ -474,7 +474,7 @@ body {
     gap: .6rem;
     font-size: 1.4rem;
     font-weight: 500;
-    color: var(--b1Red);
+    color: var(--BFRed);
 
 }
 
@@ -482,7 +482,7 @@ body {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    color: var(--b1Black);
+    color: var(--BFBlack);
     font-family: var(--fontPrim);
     font-size: clamp(5rem, 10dvw, 13dvw);
     font-weight: 800;
@@ -499,7 +499,7 @@ body {
     left: 0;
     width: 100%;
     height: 5px;
-    background: var(--b1Black);
+    background: var(--BFBlack);
 }
 
 .divulgacao {
@@ -514,7 +514,7 @@ body {
 
     .link-top {
         text-decoration: none;
-        color: var(--b1Black);
+        color: var(--BFBlack);
         display: flex;
         gap: 2px;
     }
@@ -523,7 +523,7 @@ body {
 
         a {
             font-size: 1.3rem;
-            color: var(--b1Red);
+            color: var(--BFRed);
             text-decoration: none;
         }
     }
@@ -534,7 +534,7 @@ body {
 }
 
 /* =========================================================
-   RESPONSIVIDADE MOBILE — B1 Tattoo
+   RESPONSIVIDADE MOBILE —  Tattoo
    ========================================================= */
 
 @media (max-width: 600px) {
@@ -620,7 +620,7 @@ body {
 
   .name-horizontal h1 {
     font-size: clamp(10vh, 40vw, 45vw);
-    white-space: nowrap;
+    BFwhite-space: nowrap;
   }
 
   /* Artista */
@@ -842,7 +842,7 @@ body {
 
   .name-horizontal h1 {
     font-size: clamp(10vh, 40vw, 45vw);
-    white-space: nowrap;
+    BFwhite-space: nowrap;
   }
 
   /* Artista */
