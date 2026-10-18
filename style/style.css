@@ -271,7 +271,7 @@ body {
     background-color: var(--BFWhite);
 }
 
-.cleiton {
+.ben {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -285,7 +285,7 @@ body {
     }
 }
 
-.text-cleiton {
+.text-ben {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -308,7 +308,7 @@ body {
     }
 }
 
-.text-cleiton p {
+.text-ben p {
     width: 50%;
     font-weight: 500;
 
@@ -620,21 +620,21 @@ body {
 
   .name-horizontal h1 {
     font-size: clamp(10vh, 40vw, 45vw);
-    BFwhite-space: nowrap;
+    white-space: nowrap;
   }
 
   /* Artista */
-  .cleiton {
+  .ben {
     flex-direction: column;
     gap: 2rem;
     padding: 2rem 1.25rem;
   }
 
-  .cleiton img {
+  .ben img {
     width: min(72vw, 20rem);
   }
 
-  .text-cleiton {
+  .text-ben {
     gap: 2rem;
   }
 
@@ -643,7 +643,7 @@ body {
     line-height: 0.9;
   }
 
-  .text-cleiton p {
+  .text-ben p {
     width: 88%;
   }
 
@@ -846,17 +846,17 @@ body {
   }
 
   /* Artista */
-  .cleiton {
+  .ben {
     padding: 3rem 2rem;
     gap: 1rem;
     flex-direction: column;
   }
 
-  .cleiton img {
+  .ben img {
     width: 31vw;
   }
 
-  .text-cleiton {
+  .text-ben {
     gap: 3rem;
   }
 
@@ -865,7 +865,7 @@ body {
     line-height: 0.9;
   }
 
-  .text-cleiton p {
+  .text-ben p {
     width: 70%;
   }
 

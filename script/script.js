@@ -178,7 +178,7 @@ tlMsg.from(letraMsg.words, {
     ease: "back.out(1.7))"
 })
 
-const telefone = '553195579701'
+const telefone = ''
 
 
 function enviarWhatsApp(event) {
